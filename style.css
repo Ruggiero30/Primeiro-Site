@@ -1,0 +1,190 @@
+
+header {
+    background: #cccccc;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.menu {
+    position: relative;
+    width: 90%;
+    margin:auto;
+
+}
+
+#navalha {
+    height: 25%; width: 25%;
+    padding: 10px;
+    
+}
+
+nav {
+    position: absolute;
+    top: 160px;
+    right: 0;
+    margin: 0 30px 0 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+    color: teal;
+}
+nav a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+#barba {
+    height: 239px;
+    width: 211px;
+}
+
+.produtos li {
+    display: inline-block;
+    margin: 0 30px;
+    box-sizing: border-box;
+    padding: 12px 29px;
+    border-color:black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.produtos li:hover {
+    border-color: orange;
+}
+.produtos li:active {
+    border-color:green;
+}
+
+
+.produtos {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    padding: 8px 0;
+    color: teal;
+}
+.produtos h2:hover {
+    font-size:34px ;
+}
+
+.descri {
+    font-size: 18px;
+    color: teal;
+}
+
+.para {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: orangered;
+}
+.para:hover {
+    text-decoration: underline;
+    font-size:27px ;
+}
+
+.rodape {
+    text-align: center;
+    background: #cccccc; 
+    padding: 20px 0;
+    margin: 70px 0 0 0;
+}
+.rodape p {
+    padding: 15px 0 10px 0;
+    margin: 10px 0 0 0;
+    color: teal;
+}
+#valha {
+    width: 20%;
+    height: 20%;
+}
+#valha:hover {
+    width: 22%;
+    height: 22%;
+}
+
+
+.mae {
+    margin: 0 auto;
+    width: 940px;
+
+}
+form {
+    margin: 40px 0 40px 0;
+    
+}
+.um {
+    font-size: 17px;
+    margin: 0 0 12px 0; 
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: teal;
+}
+.dois {
+    display: block;
+    margin: 0 0 17px 0;
+    padding: 13px 12px;
+    border-radius: 15px;
+    width: 50%;
+
+}
+
+#valor {
+    width: 30%;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: teal;
+    border-radius: 8px;
+    transition: 1s background;
+
+
+}
+#valor:hover {
+background: orange;
+
+}
+#valor:active {
+    color: green;
+}
+
+#redioemail {
+    text-align: left;
+}
+
+.divisao {
+    display: block;
+    margin: 16px 0 10px 0;
+}
+.divisaodois {
+    margin: 30px 0 20px 0 ;
+}
+.complexo p {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: teal;
+}
+.seletor {
+    margin: 10px 0;
+}
+#what {
+    margin: 0 0 35px 0;
+}

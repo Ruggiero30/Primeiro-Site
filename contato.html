@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Ruggiero</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="menu">
+
+                   <h1><img id="navalha" src="Navalha.jpg" alt="Logo Barbearia Ruggiero"></h1>
+
+            <nav>
+                 <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                 </ul>
+            </nav>        
+        </div>
+    </header>
+    <main class="mae">
+        <form>
+            <label for="nomeesobrenome" class="um">Nome e Sobrenome:</label>
+            <input type="text" id="nomeesobrenome" class="dois" required>
+
+            <label for="Telefone" class="um">Telefone: </label>
+            <input type="tel" id="Telefone" class="dois" required placeholder="(xx) xxxx-xxxx">
+
+            <label for="Email" class="um"> Email:</label>
+            <input type="email" id="Email" class="dois" required>
+
+            <label for="mensagem" class="um">Mensagem:</label>
+            <textarea id="mensagem" cols="60" rows="10" class="dois" required></textarea>
+
+        <div class="complexo">
+            <p>Como prefere o nosso contato ?</p>
+
+        <div class="divisao">
+            <label for="radioemail">email:</label>
+            <input type="radio" name="contato" value="email" id="radioemail">
+        </div>
+
+         <div class="divisao">
+            <label for="radiotelefone">telefone: </label>
+            <input type="radio" name="contato" value="Telefone" id="radiotelefone">
+         </div>
+
+        <div class="divisao" id="what">
+            <label for="radiowhatsapp">whatsapp:</label>
+            <input type="radio" name="contato" value="whatsapp" id="radiowhatsapp" checked>
+        </div>
+
+        <div>
+            <p>Qual horário você gostaria de ser atendido ?</p>
+            <select class="seletor">
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+
+            </select>
+
+        </div>
+
+        <div class="divisaodois">
+            <label for="gostaria">Gostaria de receber nossas novidades por email ?</label>
+            <input type="checkbox" id="gostaria">
+        </div>
+
+        </div>
+
+
+            <input type="submit" value="Enviar Formulário" id="valor">
+
+        </form>
+
+
+    </main>
+        <footer class="rodape">
+            <img id="valha" src="Navalha.jpg" alt="Logo Barbearia Ruggiero">
+            <p>
+                &copy;Tecnologia Barbearia Ruggiero - Todos os direitos reservados
+            </p>
+        </footer>
+    </body>
