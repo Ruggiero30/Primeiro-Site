@@ -189,3 +189,18 @@ transform: scale(1.1);
 #what {
     margin: 0 0 35px 0;
 }
+.tabela {
+    margin: 50px 0 25px 0;
+    
+}
+.tabela td {
+    border: solid teal;
+    text-align: center;
+}
+.tabela th {
+    border: solid teal;
+    color: orange;
+}
+.boxe {
+    padding: 30px;
+}
