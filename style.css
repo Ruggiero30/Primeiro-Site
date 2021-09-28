@@ -1,7 +1,7 @@
 
 header {
     background: #cccccc;
-    padding: 10px 0;
+    padding: 1px 0;
     width: 100%;
 }
 
@@ -202,5 +202,8 @@ transform: scale(1.1);
     color: orange;
 }
 .boxe {
-    padding: 30px;
+    padding: 10px;
+}
+#navalha {
+    margin: 0 1000px 0 0;
 }
