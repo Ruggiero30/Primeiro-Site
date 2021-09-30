@@ -85,3 +85,9 @@ h3 {
 .principal p {
     margin: 20px 0;
 }
+main {
+    background: white;
+}
+#fut {
+    height: 100px;
+}
