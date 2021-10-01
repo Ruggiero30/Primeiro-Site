@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Merriweather', serif;
+}
 header {
     background: #cccccc;
     padding: 1px 0;
