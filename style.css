@@ -1,5 +1,7 @@
 body {
     font-family: 'Merriweather', serif;
+    margin: auto;
+    width: auto;
 }
 header {
     background: #cccccc;
@@ -10,8 +12,8 @@ header {
 
 .menu {
     position: relative;
-    width: 90%;
-    margin:auto;
+    width: 80%;
+    margin:0 auto;
 
 }
 
@@ -22,16 +24,17 @@ header {
 }
 
 nav {
-    position: absolute;
+    position: absolute ;
     top: 160px;
     right: 0;
-    margin: 0 30px 0 0;
+    margin: auto;
+    
 
 }
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: auto auto auto 15px;
 }
 nav a {
     text-transform: uppercase;
@@ -161,6 +164,8 @@ form {
 
 
 }
+/* all= tudo  scale= o quanto "tudo" irá aumentar */
+
 #valor:hover {
 background: orange;
 transform: scale(1.1);
@@ -210,4 +215,10 @@ transform: scale(1.1);
 }
 #navalha {
     margin: 0 1000px 0 0;
+}
+@media screen and (max-width: 480px) {
+    body {
+        background: magenta;
+    }
+    
 }

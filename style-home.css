@@ -3,6 +3,7 @@
 body {
     background: #cccccc;
     font-family: 'Merriweather', serif;
+    
 }
 header {
     padding: 60px 0;
@@ -88,16 +89,17 @@ h3:hover {
     width: 40%;
     text-align: center;
     text-align: center;
-    margin: 0 230px 0 0;
+    margin: auto 230px auto auto;
+    box-shadow: 20px 20px 30px #000000;
 }
 
 .principal {
     background: #fefefe;
     padding: 30px;
-    margin: 0 auto 40px auto;
+    margin: auto auto 40px auto;
 }
 .principal p {
-    margin: 20px 0;
+    margin: 20px auto;
 }
 main {
     background: white;
@@ -118,7 +120,7 @@ main {
     color:orange;
 }
 .principal p {
-    margin: 0 0 30px 0;
+    margin: auto auto 30px auto;
 }
 
 
@@ -165,5 +167,11 @@ section p {
 }
 .videodois {
     margin: 90px 0 90px 390px;
+    box-shadow: 20px 20px 30px #000000;
+}
+
+/* não selecionar um elemento de uma div ou section= .principal p:not(#missao) { }...... ou seja, todos os parágrafos irão ter, por exemplo, a mesma cor de funfo menos o parágrafo #missão*/
+.corpo {
+    width: 100%;
 }
 
