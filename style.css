@@ -177,6 +177,7 @@ transform: scale(1.1);
 
 #redioemail {
     text-align: left;
+
 }
 
 .divisao {
@@ -216,9 +217,15 @@ transform: scale(1.1);
 #navalha {
     margin: 0 1000px 0 0;
 }
+
 @media screen and (max-width: 480px) {
-    body {
-        background: magenta;
+    body, .menu , nav , .principal, .mapa , .benefícios, .video, .rodape {
+        width: auto;
+    }
+
+    .videodois {
+        margin: auto;
+        width: 100%;
     }
     
 }
